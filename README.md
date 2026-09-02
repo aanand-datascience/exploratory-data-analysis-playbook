@@ -1,116 +1,184 @@
-# EDA Tools in Python
+# 🔍 Exploratory Data Analysis with Python
 
-
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
-![EDA](https://img.shields.io/badge/EDA-Automation-orange)
-![Visualization](https://img.shields.io/badge/Visualization-Tools-red)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-blueviolet)
+![EDA](https://img.shields.io/badge/EDA-Exploratory_Data_Analysis-yellow)
 
 ---
 
 ## 📌 Project Overview
 
-This repository showcases various Automated Exploratory Data Analysis (EDA) tools in Python that help in quickly understanding datasets through visualizations, reports, and interactive interfaces.
+This repository provides a practical guide to **Exploratory Data Analysis (EDA)** using Python.
 
-💡 This repository compares multiple EDA tools and helps understand when to use each one effectively.
-The main goal is to simplify and accelerate data analysis by leveraging powerful libraries that automatically generate insights.
+It covers data understanding, data cleaning, statistical analysis, visualization, missing values, outliers, correlation analysis, feature exploration, and practical EDA workflows.
 
----
-
-## 🧰 EDA Libraries Covered
-
-* 🔹 **D-Tale** → Interactive data exploration UI
-* 🔹 **AutoViz** → Automatic visualization generation
-* 🔹 **DataPrep** → Fast EDA and data cleaning
-* 🔹 **Klib** → Data cleaning and visualization
-* 🔹 **Lux** → Intelligent visualization suggestions
-* 🔹 **Pandas Profiling** → Detailed statistical EDA report
-* 🔹 **Sweetviz** → High-quality visual comparison reports
+The repository also includes hands-on examples of popular **automated EDA tools** and **EDA interview preparation**.
 
 ---
 
-## 📊 Key Features
+## 🛠️ EDA Libraries & Tools
 
-* Automated data visualization
-* Interactive dashboards
-* Quick data insights
-* Data cleaning support
-* Feature understanding
-* Report generation
+- **Pandas** → Data analysis and manipulation
+- **NumPy** → Numerical computing
+- **Matplotlib** → Data visualization
+- **Seaborn** → Statistical visualization
+- **D-Tale** → Interactive data exploration
+- **AutoViz** → Automated visualization
+- **DataPrep** → Fast EDA and data cleaning
+- **Klib** → Data cleaning and visualization
+- **Lux** → Intelligent visualization
+- **Pandas Profiling** → Automated EDA reports
+- **Sweetviz** → Visual EDA reports
 
 ---
 
-## 📁 Project Structure
+## 📊 EDA Topics Covered
 
-eda-tools-python/
+- Data Understanding
+- Data Cleaning
+- Missing Value Analysis
+- Duplicate Detection
+- Statistical Analysis
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+- Outlier Detection
+- Correlation Analysis
+- Data Visualization
+- Feature Understanding
+
+---
+
+## 🔎 Comparison of EDA Tools
+
+| Library / Tool | Best For | Output Type |
+|---|---|---|
+| **AutoViz** | Quick Visualization | Charts |
+| **D-Tale** | Interactive Analysis | Web UI |
+| **Pandas Profiling** | Detailed EDA Report | HTML Report |
+| **Sweetviz** | Visual EDA Reports | HTML Report |
+| **Lux** | Automated Insights | Charts |
+| **DataPrep** | Fast EDA | Reports + Charts |
+| **Klib** | Cleaning & Visualization | Charts |
+
+---
+
+## 📁 Repository Structure
+
+```text
+exploratory-data-analysis-python/
 │
-├── dtale/
-│   └── dtale.ipynb
+├── EDA/
+│   └── Exploratory_Data_Analysis.ipynb
 │
-├── autoviz/
-│   └── autoviz.ipynb
-│
-├── dataprep/
-│   └── dataprep.ipynb
-│
-├── klib/
-│   └── klib.ipynb
-│
-├── lux/
-│   └── lux.ipynb
-│
-├── pandas-profiling/
-│   └── pandas_profiling.ipynb
-│
-├── sweetviz/
+├── EDA_Libraries/
+│   ├── d-tale.ipynb
+│   ├── autoviz.ipynb
+│   ├── dataprep.ipynb
+│   ├── klib.ipynb
+│   ├── lux.ipynb
+│   ├── pandas-profiling.ipynb
 │   └── sweetviz.ipynb
 │
-└── README.md
-
----
-
-## 🔍 Comparison of EDA Tools
-
-| Library          | Best For                 | Output Type      |
-| ---------------- | ------------------------ | ---------------- |
-| AutoViz          | Quick visualization      | Charts           |
-| D-Tale           | Interactive analysis     | Web UI           |
-| Pandas Profiling | Detailed report          | HTML Report      |
-| Sweetviz         | Visual EDA reports       | HTML Report      |
-| Lux              | Auto insights            | Charts           |
-| DataPrep         | Fast EDA                 | Reports + Charts |
-| Klib             | Cleaning + Visualization | Charts           |
-
----
-
-## 🚀 How to Use
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/aanand-datascience/eda-tools-python.git
+├── Visualization/
+│   └── pandas_visual_analysis.ipynb
+│
+├── Interview_Preparation/
+│   └── interview_questions_&_answers.pdf
+│
+├── Dataset/
+│   └── titanic.csv
+│
+├── README.md
+└── LICENSE
 ```
 
-2. Install required libraries
+---
 
-```bash
-pip install pandas numpy matplotlib seaborn dtale autoviz dataprep klib lux-api ydata-profiling sweetviz
+## 🔍 EDA Workflow
+
+```text
+Dataset
+   ↓
+Data Understanding
+   ↓
+Data Cleaning
+   ↓
+Statistical Analysis
+   ↓
+Univariate / Bivariate / Multivariate Analysis
+   ↓
+Outlier & Correlation Analysis
+   ↓
+Visualization
+   ↓
+Insights
+   ↓
+Machine Learning
 ```
-
-3. Open Jupyter Notebook and explore each tool
 
 ---
 
-## 🎯 Conclusion
+## 📚 Interview Preparation
 
-Automated EDA tools significantly reduce manual effort and help data scientists quickly extract meaningful insights from datasets.
+Includes **EDA Interview Questions & Answers** covering:
 
-This repository demonstrates how different tools can be used for efficient and faster data analysis.
+- EDA fundamentals
+- Missing values
+- Outliers
+- Statistical analysis
+- Data visualization
+- Correlation
+- Practical EDA scenarios
+
+---
+
+## 📂 Dataset
+
+The repository includes the **Titanic dataset** for practical Exploratory Data Analysis.
+
+It is used to demonstrate data cleaning, statistical analysis, feature analysis, visualization, missing value analysis, outlier detection, and correlation analysis.
+
+---
+
+## 🎯 Purpose
+
+- Build strong EDA fundamentals
+- Practice real-world data analysis
+- Improve data visualization skills
+- Explore automated EDA tools
+- Understand different EDA workflows
+- Prepare for Data Science & Machine Learning interviews
+
+---
+
+## 🚀 Future Improvements
+
+- More real-world datasets
+- Advanced EDA techniques
+- Feature Engineering
+- EDA case studies
+- End-to-end Data Science projects
+- Machine Learning projects
+
+---
+
+## 🧰 Tools & Technologies
+
+**Python | NumPy | Pandas | Matplotlib | Seaborn | D-Tale | AutoViz | DataPrep | Klib | Lux | Pandas Profiling | Sweetviz | Jupyter Notebook**
 
 ---
 
 ## 👨‍💻 Author
 
 **Aanand Kumar**
-Aspiring Data Scientist 🚀
 
+Aspiring Data Scientist  
+Python | Data Analysis | EDA | Machine Learning
+
+---
+
+⭐ If you find this repository useful, consider giving it a star.
